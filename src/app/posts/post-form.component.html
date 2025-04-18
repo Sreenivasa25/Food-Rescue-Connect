@@ -1,0 +1,6 @@
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+  <input formControlName="title" placeholder="Title">
+  <input formControlName="address" placeholder="Address">
+  <textarea formControlName="description" placeholder="Description"></textarea>
+  <button type="submit">Post Surplus</button>
+</form>
